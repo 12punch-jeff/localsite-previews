@@ -1,0 +1,82 @@
+{
+  "id": "ChIJGwtjaRaPtqARk0k7K6Q5R7c",
+  "name": "Blue Collars | Charleston Plumbing and HVAC",
+  "address": "2157 Rich St, Charleston, SC 29405, USA",
+  "phone": "(843) 375-6680",
+  "website": "http://www.bluecollars.com/",
+  "rating": 5,
+  "reviewCount": 5,
+  "reviews": [
+    {
+      "author": "Kailan Cruz",
+      "rating": 5,
+      "text": "Today I was blessed by the presence of Felix and Allen when my apartment complex had an issue with my water heater. I was worried I would have to wait forever long for it to be replaced but they handled it with efficiency!! They were great conversationalists! Not only in explaining what they were doing, but overall just talking w us while they were working. When i am one-day (hopefully) a future homeowner, I will be reaching out to this company and hopefully Allen and Felix for all my plumbing needs 🥰",
+      "time": "5 months ago"
+    },
+    {
+      "author": "Kalleigh Norval",
+      "rating": 5,
+      "text": "We had a bit of an emergency plumbing situation and a neighbor recommended Blue Collars. From the start, Clayton and the team were friendly, punctual, and clearly had great expertise. They explained everything they were doing at each step and made sure to stick around until the issue was properly resolved (which included some work from the city!). Can’t thank them enough, will definitely recommend and call again if needed!",
+      "time": "a month ago"
+    },
+    {
+      "author": "Luminita Management",
+      "rating": 5,
+      "text": "We’ve had a great experience working with Blue Collar, especially during the transition of newly acquired properties. The service team (Jordan, Marc, PK, Andrew, and Wes) have been incredibly responsive, professional, and helpful every step of the way. They’ve been quick to respond to service calls, taken the time to clearly explain issues and solutions, and consistently completed work in a timely manner. Having a reliable team like this during a transition makes a huge difference, and we truly appreciate their support and attention to detail. Highly recommend Blue Collar for their service and professionalism.",
+      "time": "a month ago"
+    },
+    {
+      "author": "Michael Kovaleski",
+      "rating": 5,
+      "text": "This review is specifically for the HVAC department at Blue Collars.\n\nI manage almost 400 apartments with hvac units that are going on 11 years old.  These are my go to people for major repairs and system replacements.\n\nThe HVAC team is extremely reliable, always on time, very professional, and excellent at communicating throughout the entire process. Their work is top-notch and done right the first time.\n\nShout out to Andrew, Marc, Jordan, Wess, and PK — great people who represent Blue Collar’s HVAC department well.\n\nI highly recommend Blue Collar’s HVAC services.",
+      "time": "a month ago"
+    },
+    {
+      "author": "Bora Yatagan",
+      "rating": 5,
+      "text": "I’ve had a great experience working with the Blue Color HVAC department. The team is knowledgeable, responsive, and always willing to help when it matters most. Big shoutout to Andrew, Jordan, Wess, Marc, and PK these guys have come through for me multiple times and truly know their stuff.\nIt’s good to know you’re working with people you can rely on when you need support. I really enjoy working with this team and appreciate everything they do.",
+      "time": "a month ago"
+    }
+  ],
+  "hours": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "photos": [
+    {
+      "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=ATCDNfVaBTreUYrFZEqq9ZBaCg-ulDJBEYICQI-wydZGW4aa7jkHCjnRVN9R9aoe9cfYEWTdlMvw0NpW4umKfaoRGuqX2dlWxJK070BkXBImIHgJvbhwjDDOO2c06qgrFm52biZ1kreIQCOvhPw5f_nyuzu2v1uaL9lBeNUJ5PhiXlFELkouXytTzOcowsBN4ky0nmXKmtgp_O_Fd75U-D8bi5q6geOLGIJa_-376HQ0zNyiX4F3vPdGMndkVoEtbH8-ehgqV49N5yO3z1eufZUUEAzymKKOJ0t5hz8MfriCO6nSBA&key=AIzaSyAk5AWFI_ubGdKij7aGx1lA7Otiyh27p24",
+      "attribution": "<a href=\"https://maps.google.com/maps/contrib/117864924033305912526\">Blue Collars | Charleston Plumbing and HVAC</a>"
+    },
+    {
+      "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=ATCDNfX-tL2cbr0Pm9wQsNbPjjkoQtrAQ02xPLWwiqmyg93BSclzYIfw7w6ac5-9K8njY3SFIBT7KNmA9m4dqPKqFaWcpJ8ArUpK1_RVoIbhPfjGEpZrLJrTswSpC3mAYwiAxziW-3CPnNfPb8R5A2V8PZ-l92y-DInso5IMvw3y2qe9INCnAkPNxVkdyps14GhHIrW4isNP6gmpqu4duwvlEdzZmgvORml1xjo--O16XKFTuqFPMSQ_Py6YIGcVAFARAXnS9qH9ifeadOzraCv-3UKqDjUteYXK0VHfDVcM5FZI3Q&key=AIzaSyAk5AWFI_ubGdKij7aGx1lA7Otiyh27p24",
+      "attribution": "<a href=\"https://maps.google.com/maps/contrib/117864924033305912526\">Blue Collars | Charleston Plumbing and HVAC</a>"
+    },
+    {
+      "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=ATCDNfU46tX1XKc6oFap9DtqEIAjqZMY1N_CbLG25nuS6Cu1xVxe0GiZY8KEFqT-la9BbnETSNQrxmvckccK9dn8P5--KnnkQxdiodejCzx6j1T13ZeOg2CXwIwWZ90zNHdW3dLlV9A7DXOywOp94y38hS-RZx_j51wEYXetvDBzLwvzc46ksGwu3sboERU5GaxPYAqil8eEQmZY88-noNkBzy5JM2Zy6NLLuup6GF-41cHKVCyIUpb02jYwgKYPSv_KxVSgJRAgcxbaHL-N37HgIGVDtmsnLzDLO1-DLavd4gBX-A&key=AIzaSyAk5AWFI_ubGdKij7aGx1lA7Otiyh27p24",
+      "attribution": "<a href=\"https://maps.google.com/maps/contrib/117864924033305912526\">Blue Collars | Charleston Plumbing and HVAC</a>"
+    },
+    {
+      "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=ATCDNfWk_BRGRKjD6v51Pyaml3LeetMJDRTaChfcKOEl_Nb7rnoSliwYxvNiG3Sp2arY-G1IX0VBYQvpu4rGRkGj0Br4mwJ6wQh2jON9_tCn1fo3UIQpUkrMh5vu8vTq4evGfiA-_RyOV4Zaoagbh_A5Y2vWykSDZ8wID-COmE_7WcwIBILzkDoGv-Cdfu3eSXe_z0pyoUuLvw43wfCdOFYbu9VsnL9x1r-VtNdJzN7Acl_ygEnnWKoI4EPZGN0gJeZn3mwyTCpL1Nqf4904RhJMxV8LAHwYt-UC2Gt-UBMkw0izaA&key=AIzaSyAk5AWFI_ubGdKij7aGx1lA7Otiyh27p24",
+      "attribution": "<a href=\"https://maps.google.com/maps/contrib/117864924033305912526\">Blue Collars | Charleston Plumbing and HVAC</a>"
+    },
+    {
+      "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=ATCDNfUpZBLSXTUeOWA8WaC6viZLiBmzRstTIoWWF8jV3wYftT5IIj5KQNpGQW0-00ZRMUNOFqJLavUwXB4gPtD1xo12m9ROzEbaGFxh0Kx7AFtm_lNFEug6RuinNw_zNTJIsdLpSj74iYQkoY3w3m875ivKIHbwSXxeb6r5s9y-2sIpZdpzzpuwIGm3Pm-7Okvo3NVdfXIJxeugSaEqTxAXSmqwOg-66BBvF_7XNqrSV49V0dausIlDFJmF9IsE9PGIDyfTVnZifQu3HV7FUYq4sxPy1MANTHpH7v5Qi2kiQV1pbg&key=AIzaSyAk5AWFI_ubGdKij7aGx1lA7Otiyh27p24",
+      "attribution": "<a href=\"https://maps.google.com/maps/contrib/117864924033305912526\">Blue Collars | Charleston Plumbing and HVAC</a>"
+    }
+  ],
+  "googleMapsUrl": "https://maps.google.com/?cid=13206587809549994387",
+  "types": [
+    "establishment",
+    "general_contractor",
+    "plumber",
+    "point_of_interest"
+  ],
+  "category": "plumber",
+  "location": "Charleston, SC",
+  "scrapedAt": "2026-02-13T20:51:39.332Z"
+}

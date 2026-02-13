@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalSite Previews</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        .container { max-width: 800px; margin: 0 auto; }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .subtitle { color: #94a3b8; margin-bottom: 40px; }
+        .site-list { list-style: none; }
+        .site-item {
+            background: #1e293b;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: transform 0.2s;
+        }
+        .site-item:hover { transform: translateX(5px); }
+        .site-name { font-weight: 600; font-size: 1.1rem; }
+        .site-meta { color: #94a3b8; font-size: 0.9rem; margin-top: 5px; }
+        .site-link {
+            background: #3b82f6;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .site-link:hover { background: #2563eb; }
+        .stats {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #1e293b;
+            border-radius: 12px;
+        }
+        .stat-value { font-size: 2rem; font-weight: 700; color: #3b82f6; }
+        .stat-label { color: #94a3b8; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>LocalSite Previews</h1>
+        <p class="subtitle">Charleston, SC — Plumbers</p>
+        
+        <div class="stats">
+            <div>
+                <div class="stat-value">10</div>
+                <div class="stat-label">Sites Generated</div>
+            </div>
+            <div>
+                <div class="stat-value">$0.05</div>
+                <div class="stat-label">Cost Per Site</div>
+            </div>
+            <div>
+                <div class="stat-value">~2 min</div>
+                <div class="stat-label">Generation Time</div>
+            </div>
+        </div>
+        
+        <ul class="site-list">
+            <li class="site-item">
+                <div>
+                    <div class="site-name">LimRic Plumbing, Electrical, Heating & Air</div>
+                    <div class="site-meta">⭐ 4.9 • North Charleston</div>
+                </div>
+                <a href="limric-plumbing-electrical-heating-air/" class="site-link">View Site →</a>
+            </li>
+            <li class="site-item">
+                <div>
+                    <div class="site-name">J Stephens Plumbing LLC</div>
+                    <div class="site-meta">⭐ 4.9 • Charleston</div>
+                </div>
+                <a href="j-stephens-plumbing-llc/" class="site-link">View Site →</a>
+            </li>
+            <li class="site-item">
+                <div>
+                    <div class="site-name">Palmetto Plumbing</div>
+                    <div class="site-meta">⭐ 5.0 • Charleston</div>
+                </div>
+                <a href="palmetto-plumbing-drain-cleaning-water-heater-repa/" class="site-link">View Site →</a>
+            </li>
+            <li class="site-item">
+                <div>
+                    <div class="site-name">Purpose Plumbing</div>
+                    <div class="site-meta">⭐ 4.4 • Charleston</div>
+                </div>
+                <a href="purpose-plumbing/" class="site-link">View Site →</a>
+            </li>
+            <li class="site-item">
+                <div>
+                    <div class="site-name">Fix-it 24/7 Air Conditioning, Plumbing & Heating</div>
+                    <div class="site-meta">⭐ 4.9 • Charleston</div>
+                </div>
+                <a href="fix-it-24-7-air-conditioning-plumbing-heating/" class="site-link">View Site →</a>
+            </li>
+            <li class="site-item">
+                <div>
+                    <div class="site-name">Blue Collars | Charleston Plumbing and HVAC</div>
+                    <div class="site-meta">⭐ 5.0 • Charleston</div>
+                </div>
+                <a href="blue-collars-charleston-plumbing-and-hvac/" class="site-link">View Site →</a>
+            </li>
+            <li class="site-item">
+                <div>
+                    <div class="site-name">Avery's Plumbing</div>
+                    <div class="site-meta">⭐ 4.9 • Charleston</div>
+                </div>
+                <a href="avery-s-plumbing-tankless-water-filtration/" class="site-link">View Site →</a>
+            </li>
+            <li class="site-item">
+                <div>
+                    <div class="site-name">Charles Towne Plumbing</div>
+                    <div class="site-meta">⭐ 4.9 • Charleston</div>
+                </div>
+                <a href="charles-towne-plumbing/" class="site-link">View Site →</a>
+            </li>
+            <li class="site-item">
+                <div>
+                    <div class="site-name">Atta-Boy Plumbing LLC</div>
+                    <div class="site-meta">⭐ 4.9 • Charleston</div>
+                </div>
+                <a href="atta-boy-plumbing-llc/" class="site-link">View Site →</a>
+            </li>
+            <li class="site-item">
+                <div>
+                    <div class="site-name">Blitch Plumbing</div>
+                    <div class="site-meta">⭐ 4.3 • Charleston</div>
+                </div>
+                <a href="blitch-plumbing/" class="site-link">View Site →</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

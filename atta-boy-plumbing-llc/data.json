@@ -1,0 +1,81 @@
+{
+  "id": "ChIJH8-4eEN9_ogRowkLzbXiVxM",
+  "name": "Atta-Boy Plumbing LLC",
+  "address": "2178 B Savannah Hwy STE 10, Charleston, SC 29414, USA",
+  "phone": "(843) 647-6330",
+  "website": "http://attaboyplumbingservices.com/",
+  "rating": 4.9,
+  "reviewCount": 5,
+  "reviews": [
+    {
+      "author": "Alex J",
+      "rating": 5,
+      "text": "Great experience and highly recommended. They replaced the entire plumbing system for the whole house (changed old brittle CPVC to new PEX, new valves, everything). All work was done neatly and professionally with high quality materials, the team was careful to lay down floor protection anywhere they worked, and followed up after work was complete to make sure all was as it should be. Very easy to work with, communicated well, and attentive to their work. Would gladly recommend to friends and family.",
+      "time": "a month ago"
+    },
+    {
+      "author": "Don Francis",
+      "rating": 2,
+      "text": "Quality of the work was good but pricing was very high. Had 2 items to be completed, replace a toilet flange and cut and shorten the water supply line. They were onsite for 45 minutes to replace the toilet flange only as I decided to do the water line myself. The quote for the water line was $250.00 and it took me 5 minutes to complete after a quick visit to the plumbing supply store. Parts for the water line was $11.23. This is obviously where we are headed with the shortage of tradesmen.",
+      "time": "a month ago"
+    },
+    {
+      "author": "Clayton Patton",
+      "rating": 5,
+      "text": "We have used Atta-Boy Plumbing many times over the last few years for various plumbing jobs and they have always done a nice job, listened to our problems, and treated our home with care. Most recently we had a leak from one of our bathrooms into our garage and they were here promtply at 8 AM the next morning to assess and help us fix the problem. Would recommend Atta-Boy to anyone looking for a reliable and professional solution to your plumbing needs.",
+      "time": "4 months ago"
+    },
+    {
+      "author": "Don Stilwell",
+      "rating": 5,
+      "text": "Jody (I believe that's how you spell his name) was out at our house in Oak Terrace Preserve in North Charleston last week.  He was scheduled to be there somewhere between 8 and 10 am, and he was at the door promptly at 8.  Bonus points for that!  All of our bathroom faucets were running very slow and light flows, and Jody worked on each one, telling me exactly what he was doing and why, not only fixing my problems, but educating me along the way.  He was pleasant, personable and professional.  This is exactly what I want when someone comes to my house to do work.  I will absolutely be calling Atta Boy Plumbing again when I need work done or have a problem at my home.",
+      "time": "5 months ago"
+    },
+    {
+      "author": "Arthur Murray",
+      "rating": 5,
+      "text": "Riley did an excellent job flushing our tankless system. He arrived on time and explained the service in detail. He waited after to make sure the water was heated to the proper temperature and everything was clear. Would definitely recommend this company.",
+      "time": "4 months ago"
+    }
+  ],
+  "hours": [
+    "Monday: 8:00 AM – 6:00 PM",
+    "Tuesday: 8:00 AM – 6:00 PM",
+    "Wednesday: 8:00 AM – 6:00 PM",
+    "Thursday: 8:00 AM – 6:00 PM",
+    "Friday: 8:00 AM – 6:00 PM",
+    "Saturday: 9:00 AM – 5:00 PM",
+    "Sunday: Closed"
+  ],
+  "photos": [
+    {
+      "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=ATCDNfWow4WgAL8VZbsC4bRIGsSwgNww0SnlDb_lxtWaat4coTBEevruORr2qjU0eQVdNgfwBHTP7BTMln84EeC2x7Yb7w7oymFdOyB9H1MB4kt-KHq-ZXftcxSf1YXZL5AL3FwhTJpiAa-2AiJspuyMMevchGC7bPHK5Hgu5eXQ3M4L25-BlfIz0z4JHXardRzZhJGncWwTorhB_tz9Mq7hK0b091VKF9twxL_zgVgWAMe63vcWmh-ocrgePwQTYx42l0SqtiRpcrGKgo7x8AkprEKoxyrBDb8P9jguahiK7tItxA&key=AIzaSyAk5AWFI_ubGdKij7aGx1lA7Otiyh27p24",
+      "attribution": "<a href=\"https://maps.google.com/maps/contrib/117034020527259746444\">Atta-Boy Plumbing LLC</a>"
+    },
+    {
+      "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=ATCDNfWbMLH-vTWhrmJ49ncQa_zJiRr1ASAu3Yt1PTArwssCiNkwqu68bisl2VAcKCkLbiYVTEDwnRNktPJPvCLSN5dWxVoxNiQSDIljyRLU2YvrRQChcsOPd_GibhYoVpbAdd3xBHCtJF_6xds1F7pvM7qNH95tbV2GPIP6pq-E4geNBrxpXcHVccyOAaRuMkPS8yoNRu5BB4SyyGATnNkRnYycT6_9GlA6gzeWnU34t2xqvgfuQHOkv_jB9VFTKSgj2eTElkfPc6U3H5svUmwGzplqIfQN5-sdhYWlRWi4biRJ8w&key=AIzaSyAk5AWFI_ubGdKij7aGx1lA7Otiyh27p24",
+      "attribution": "<a href=\"https://maps.google.com/maps/contrib/117034020527259746444\">Atta-Boy Plumbing LLC</a>"
+    },
+    {
+      "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=ATCDNfWFZEXe_TfOANpeAHOEI_zbuqmnrQ8HgO3hpW1fL2ENhsoerIAeugV5IVwbTsuRWJi_6QU86rY9_djk_jmiWWe-nJRgeUhlJJ-ZmVOmrwj_LuH7c8Xp-R_eYaw7DPyQSMPJIdLI0KvOT1CyGgCcol_gmoGUvb1EJijMrMbKy6UbXXG3SifhQiuWWlAL45ZLTlwwOjzY2U_-owoxzPz2dxzcyXNmLb-Dd4-plp7tINFpxNG85sQvkiEneoRieZB19kAcif6IHpnAvHOorD36U1Ta0qf9Tuw-rEH8UtVNV5oC-owve2e0VvFc1lnyrKNnlCYV6_de7S1cKiS-mIsPKsZHOB0fs4C4ktErPm6IjUcQ36H7u_FDUykzJ6BYNvdUS__8lnUUsJJI6HHdfCNPJnRqOMEKKHX2pMoxiaOdxa5L5Sa1&key=AIzaSyAk5AWFI_ubGdKij7aGx1lA7Otiyh27p24",
+      "attribution": "<a href=\"https://maps.google.com/maps/contrib/117497703663043296917\">Lela Whitfield</a>"
+    },
+    {
+      "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=ATCDNfWPVgR6aCbDZMTEeQpDvb8zuJP8MA_6iFjNjoCc-qaMWhkFEsdScIot7cYRAtiRdY--4X5ebnCnXDJLCNb3A9BDO9-N8cJhAlNELrji5evQ--Is9WuY6P-y3ZvCGMz8DlEAssks06gOYDROsnLjKdeJbPmtzNn940r3jGRpzMeUt8MLjfpGxQ7_pexwoI6uUvg5KL53lG1qSY__IsRqECC_AjeTxso3rnD0mSsm1u-ya4tTpPPfd4OoIPdIZ9GClSWfdI-Qyail2won_rc9-tPh7sTNhVUim_fGZ3uhA3Aefw&key=AIzaSyAk5AWFI_ubGdKij7aGx1lA7Otiyh27p24",
+      "attribution": "<a href=\"https://maps.google.com/maps/contrib/117034020527259746444\">Atta-Boy Plumbing LLC</a>"
+    },
+    {
+      "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=ATCDNfXS38TNNsjIp9Ml-veAh1Cj1XU5Op3K6af2iDtifmN20BHNmmTrMb6Bj-1-teVelrtLzzrg6_EJp6URtrYPkcKtl2k6epPAI8XM0_Am-u5W-CCkkWsl6ATADScb_eNSkMiNgPTUFTJaMU5L0xA1Cxdm-dWTop_USH_2e36ZpliDz3kX05uIYagZoEWiMM6vRvytZO5T7q5Hajx2OT5yOAmPxyuGCoTEC-teBrbstShckRuYLO_xV_XHfpu98scERlRVUmaVWvkVp88gNQ60VcvyCRrRlwAJfr6U3H6-GkTkBr4SoCQn1HTVetLXPeLRjqq0cjm_3Xt1Imf18UObKKp8j_NhJGArgpFCJrzcmAsUs2heqApoUC80CtK2gCLOKytqZiRkSTNv8CBoPyh1aF82Ll49nV0Ed_khS4EyUBE&key=AIzaSyAk5AWFI_ubGdKij7aGx1lA7Otiyh27p24",
+      "attribution": "<a href=\"https://maps.google.com/maps/contrib/113378345603616738845\">Chris S</a>"
+    }
+  ],
+  "googleMapsUrl": "https://maps.google.com/?cid=1393831880151468451",
+  "types": [
+    "establishment",
+    "plumber",
+    "point_of_interest"
+  ],
+  "category": "plumber",
+  "location": "Charleston, SC",
+  "scrapedAt": "2026-02-13T20:51:40.618Z"
+}

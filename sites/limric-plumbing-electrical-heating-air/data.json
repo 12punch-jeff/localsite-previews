@@ -4,6 +4,7 @@
   "address": "4546 Dorchester Rd, North Charleston, SC 29405, USA",
   "phone": "(843) 427-0817",
   "website": "https://limric.com/?utm_source=google&utm_medium=organic&utm_campaign=GMBListing",
+  "hasWorkingWebsite": false,
   "rating": 4.9,
   "reviewCount": 5,
   "reviews": [
@@ -49,23 +50,23 @@
   ],
   "photos": [
     {
-      "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=ATCDNfX_ZQMOsBP84iSeLFCgdd3Xx1yZSYyG5qENdHJXlZTIEGiO6LADLVs3GQ8mLXYASYte6R9qrECjUrBirJAjFeI5PCYPkDvHcWlnBoRIj39KnL4d0QDjszALSXYcnNP3I64zH3v3A2pKQ51uEARKxt6f-h0OewIkBBTCykous1a05xj-WR4ugFlsxTxePXH9tZkbUePlCAI1MBzXbdgc7mQvMy0AuDHHal8bAcK-zui7f0ZlAC9K6rUQPloikxvY6_JYMbjxdUB0MEbZEHQa8nAwg1vsmFu4QI6aMX_GSjWbvw&key=AIzaSyAk5AWFI_ubGdKij7aGx1lA7Otiyh27p24",
+      "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=ATCDNfWio3o5Eammg12hc9SiCR9WnZP6MaFaTaxVYIoh7qKJe8zPK8sxIcoCYgW3V07unApOX9YzHaAdzZqpcc_eXKfYp0Hl8AqoGPcP3LwWphoQJGoRuMv8xvET87-EbTHVNO71vSKujwS-wLRP3LZssRwfyMrgTwZTFLX0XgxhTBTUBtUQEoh0DgZHAYS_YIOsKQXg_hy5vi0Om1HvbDDzq-Olli-GrtVAD5FwrMGMgGMgxg8K0I44CFWuhriuxUVWQ7vMEKsuWENWmQG60maVXXzWBDOKcTQ5YLJnDl-SN8Yg9Q&key=AIzaSyAk5AWFI_ubGdKij7aGx1lA7Otiyh27p24",
       "attribution": "<a href=\"https://maps.google.com/maps/contrib/104498245358174036040\">LimRic Plumbing, Electrical, Heating &amp; Air</a>"
     },
     {
-      "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=ATCDNfWMrGwXPeNrnp-_FHWkjHb2eLXDHYNL4AHrhPru6NzeZMUkW8zu2eE91oj9vXOAqrxSQWg8pbk0SfOxtqW8yF3wKEqL6keisue9SrjeCLZzE-BtlsYjbf5VJkEvTOM8Up7_nsUhNDGFFeWgR-BhKjeOJi9GQ3ff0DF9K-dHR1IvMKGoSUwbusKDm5LuC-38NdtF9EcHYqDBN1oF00qh6gErLEQcA3ZU9dn_fc1NyV-o2cMtYuOZr2ffaan2LEm_AQEeG7SYLyNb5F_UhXnixkKmZEckSDjdQ_cm2xkqAIj48Q&key=AIzaSyAk5AWFI_ubGdKij7aGx1lA7Otiyh27p24",
+      "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=ATCDNfWhtXZcKZh_OpFTcXGNsibYpCkK5ZNo2JXMdjWI5FiqVcJN10iib1q8XkxbcK6ZjMEZ3cW1v8gEBSuavxGWUDWPELf5ZsWe8EGBaGZNlvgEvlnaXDhn7YDA3tuWjarIIJgg2FabSsVB_XnUWWPcr-Lj-G3XFBLHoQ7Tdve1mbvibFWwN3bej39KeakqPt-7Xlk5XpVr0EYuEVEkbcopityXVMnqVZPOdcf-e57RJegoXMg7NXLK0iyV9mWa-sYgdSZ8TSwJyR3n_bSyX0qvLE5bucDpFlU2NcTmAT3GrjcrlA&key=AIzaSyAk5AWFI_ubGdKij7aGx1lA7Otiyh27p24",
       "attribution": "<a href=\"https://maps.google.com/maps/contrib/104498245358174036040\">LimRic Plumbing, Electrical, Heating &amp; Air</a>"
     },
     {
-      "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=ATCDNfWLy2B8YKDKWQHCQyzmqzvcOZP0xZ6NmCcZjxG4uJrGh76XHehhAKsJYI4AhiO5AYu3cMwNPu7WBrescAdF6LBEcEWWsAUE5tqrW5QUL8q0W8A47WPqC-d88bWWQHYPlH24SSkn_tsCdOS_YlaH1yzdAgNZLkTGV2IwnkrMJKtPccd_A066baolz-VLCPccD4I4F2hBbOveyWQ_e28cCSoB-oL-6MyOTc0LAuMNqHgzikICSOsgUc7lpEafewukVm5DG5C7rExDzJ3KwAGs1uJ9vCBw0p1E_R-XF0SR3xWz6g&key=AIzaSyAk5AWFI_ubGdKij7aGx1lA7Otiyh27p24",
+      "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=ATCDNfXOZBPtjniQ8SgZ_OFZWToGTDRNDLdUUNvyspjoWlA4WrxxNJgM57OsAIPR3oVaGpMtpkvt6C1v6lAQv42jguYqf4UWJlQsjrfU7iYsTqZ5G_DwigZtuSoeCpyUUZR1dnChfvYDOg33ANq0gic985Zc4g9ezcDBJHmaHv4aDa_hlengfNpGk2lCqEZKgrb5OFVpVJFoAbe33KedeE36297FyaMmtZKn9BKAA9htKTZ4PkYwUSNqS8DarFEMz9ZFLX1CyF3xD5MlIY5rvWH6WoRsfCzrPB7sM0jSz8HBkAJFQg&key=AIzaSyAk5AWFI_ubGdKij7aGx1lA7Otiyh27p24",
       "attribution": "<a href=\"https://maps.google.com/maps/contrib/104498245358174036040\">LimRic Plumbing, Electrical, Heating &amp; Air</a>"
     },
     {
-      "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=ATCDNfW6MPGk8l4T3idAsn9Wkfq1V0L_9GJRvaAY7I3vb9GWVG994pyQA6cQT6xPvTXINk9sh3q4ayHC6eRkjGTB0oFXPjtL4SXlfS94K1KHVc9kyVD_-Hv3p5n7kp_cE7MiJGkKp6RbCf_x8orL1RiZ0tXrBPIn5ZEiF_CrmHA6bzQ2-F1ihC3wgJ69yxSUXnZbg3Y3nu-5NOshSFZrRr8aAxKroBRZzbvNBiOGEmtflt3B73QTu-lK3ZeJcWsyXAvO5-W4ABmAt8AdKN72CLkaz1XfsgxkOKWcTrvC_P9abXCeJg&key=AIzaSyAk5AWFI_ubGdKij7aGx1lA7Otiyh27p24",
+      "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=ATCDNfWh1TjJJxjm5-51b7_bDHJb3sV7gz7jVjsrTaX0Xkqu0gg5X_efNCPLmx9Hv2cTLEflEjphJhdhXty11FgxTHrTvgr9g_np7JZ-px_5wi2wbnNDr67x1k4HffMy2k9NFikyxe8ZwVo9IUEc-1--KQ7wbad6_DgT3twuwqdCs-ZEigcEip8RKAF2jSMMPuP6royEjByMTEOrZuCs3E1E1Ht4LxHXMPKnGR5GzrTD9_NG8aq7xRnivtu_80d72cu7Pp1na3mY_OuHXSOsV_J0gGw7YZ3l2T3XETVUtnWxpL_CNg&key=AIzaSyAk5AWFI_ubGdKij7aGx1lA7Otiyh27p24",
       "attribution": "<a href=\"https://maps.google.com/maps/contrib/104498245358174036040\">LimRic Plumbing, Electrical, Heating &amp; Air</a>"
     },
     {
-      "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=ATCDNfVwm7GVXfH2RcHuTiKYtnrNrPkCqnH3Llj0RKz5aWOl71ujyJO0HiPUXRlUwWRpdJ-HXQaZKS0rDzfde1zN8N8hxqSMu8FjNHG8GMh1TvFUh46VNfkL-9x_VVxpxhczbplaU27-hejfojzplae_NyVWMz_IllqZ95O28IBEDYywiTLwpaF04wZc-ULJQ4kB4xLr7kOBUz_7Owkn_Z2fTxb3e2i6nIkeamY_1R7cZXAtzBDdzQLKLsowiRnS8peJmXzqtiu_NKp9hJCaE4sHudIMmaYLVDQohAQ5HFiHEVBsWOfRYGPje4Os_7PH_VOiV1kFvqNyrHpXc4Cfms3AvDeTwCSi0eD9fXhlH7oPVa2Ec_CgwSxG2JNsGHGKz5EuYNdToI__xMn8CfnYcqoAiXSMzEQb83ijETyr34e8uC9mBgsTtirGqgB6xbkAWOyQ&key=AIzaSyAk5AWFI_ubGdKij7aGx1lA7Otiyh27p24",
+      "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=ATCDNfWQ82xA3SlPh6h3IWvOaReSKWcwday4PGoBfoEvRhLPj_VRrqzrRWVObg7_DkE6CXgh7G_yKUxo7d71EW_oSKz2y2OkkszKRD6pppcxC5rSwkK0xFVXp6Y9Ok3CSpxvSU_YH10HK2VvLZHST-h6E42lv15Tlg84h01BXyUx4-5hMz6hZKVrM9yy7UG-a47be6V_hUIF_OOzRNaVfPPuzgMfreq4mEgH-HLN61anvRizn_fNcMCaHZaYS1G_7iTkdH5haUYtU22nEVNDFg8LIjlqGTSWrVAn7yspTEVLswhy8-dvCuPSQO7KNxw82FTeZAQG2s11RSW7PPhy9FzIuY9SEI6-kNfWd9ExBvddbzx0xs0sdUQWUIsh9tkOS4_-DGHZZcUd17x0pZLfVPym4rEfzeAGpKT6iQcphv3imldfpijp3_RXIEIhc2rb0ljY&key=AIzaSyAk5AWFI_ubGdKij7aGx1lA7Otiyh27p24",
       "attribution": "<a href=\"https://maps.google.com/maps/contrib/104848360641410957175\">Joseph Washington Jr</a>"
     }
   ],
@@ -79,5 +80,5 @@
   ],
   "category": "plumber",
   "location": "Charleston, SC",
-  "scrapedAt": "2026-02-13T20:51:37.310Z"
+  "scrapedAt": "2026-02-14T00:58:05.117Z"
 }

@@ -3,152 +3,256 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LocalSite Previews</title>
+    <title>CornerShop Digital — Site Previews</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
     <style>
+        :root {
+            --bg: #0a0a0a;
+            --bg-card: #141414;
+            --text: #ffffff;
+            --text-dim: #888888;
+            --accent: #00ff88;
+            --accent-glow: rgba(0, 255, 136, 0.15);
+            --border: #222222;
+        }
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            background: #0f172a;
-            color: #e2e8f0;
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--text);
             min-height: 100vh;
-            padding: 40px 20px;
+            padding: 60px 20px;
         }
-        .container { max-width: 800px; margin: 0 auto; }
+        .container { max-width: 1000px; margin: 0 auto; }
         h1 {
+            font-family: 'Space Grotesk', sans-serif;
             font-size: 2.5rem;
             margin-bottom: 10px;
-            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
         }
-        .subtitle { color: #94a3b8; margin-bottom: 40px; }
-        .site-list { list-style: none; }
-        .site-item {
-            background: #1e293b;
+        h1 span { color: var(--accent); }
+        .subtitle { color: var(--text-dim); margin-bottom: 50px; font-size: 1.1rem; }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1px;
+            background: var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            margin-bottom: 50px;
+        }
+        .stat {
+            background: var(--bg-card);
+            padding: 30px 20px;
+            text-align: center;
+        }
+        .stat-value {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--accent);
+        }
+        .stat-label { color: var(--text-dim); font-size: 0.85rem; margin-top: 5px; }
+        .category { margin-bottom: 40px; }
+        .category-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.2rem;
+            color: var(--accent);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .category-title::before {
+            content: '';
+            width: 20px;
+            height: 2px;
+            background: var(--accent);
+        }
+        .site-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 15px;
+        }
+        .site-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
             border-radius: 12px;
             padding: 20px;
-            margin-bottom: 15px;
+            text-decoration: none;
+            color: var(--text);
+            transition: all 0.3s;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            transition: transform 0.2s;
         }
-        .site-item:hover { transform: translateX(5px); }
-        .site-name { font-weight: 600; font-size: 1.1rem; }
-        .site-meta { color: #94a3b8; font-size: 0.9rem; margin-top: 5px; }
-        .site-link {
-            background: #3b82f6;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: 500;
+        .site-card:hover {
+            border-color: var(--accent);
+            transform: translateX(5px);
         }
-        .site-link:hover { background: #2563eb; }
-        .stats {
+        .site-info h3 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1rem;
+            margin-bottom: 5px;
+        }
+        .site-info p { color: var(--text-dim); font-size: 0.85rem; }
+        .site-arrow {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            border: 1px solid var(--border);
             display: flex;
-            gap: 30px;
-            margin-bottom: 30px;
-            padding: 20px;
-            background: #1e293b;
-            border-radius: 12px;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
+            flex-shrink: 0;
         }
-        .stat-value { font-size: 2rem; font-weight: 700; color: #3b82f6; }
-        .stat-label { color: #94a3b8; font-size: 0.9rem; }
+        .site-card:hover .site-arrow {
+            background: var(--accent);
+            border-color: var(--accent);
+            color: var(--bg);
+        }
+        @media (max-width: 600px) {
+            .stats { grid-template-columns: repeat(2, 1fr); }
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>LocalSite Previews</h1>
-        <p class="subtitle">Charleston, SC — Plumbers</p>
+        <h1>CornerShop<span>Digital</span></h1>
+        <p class="subtitle">Site previews for Charleston businesses without websites</p>
         
         <div class="stats">
-            <div>
-                <div class="stat-value">10</div>
+            <div class="stat">
+                <div class="stat-value">12</div>
                 <div class="stat-label">Sites Generated</div>
             </div>
-            <div>
-                <div class="stat-value">$0.05</div>
-                <div class="stat-label">Cost Per Site</div>
+            <div class="stat">
+                <div class="stat-value">5</div>
+                <div class="stat-label">Industries</div>
             </div>
-            <div>
-                <div class="stat-value">~2 min</div>
-                <div class="stat-label">Generation Time</div>
+            <div class="stat">
+                <div class="stat-value">$0</div>
+                <div class="stat-label">To Preview</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">$199</div>
+                <div class="stat-label">To Activate</div>
             </div>
         </div>
         
-        <ul class="site-list">
-            <li class="site-item">
-                <div>
-                    <div class="site-name">LimRic Plumbing, Electrical, Heating & Air</div>
-                    <div class="site-meta">⭐ 4.9 • North Charleston</div>
-                </div>
-                <a href="limric-plumbing-electrical-heating-air/" class="site-link">View Site →</a>
-            </li>
-            <li class="site-item">
-                <div>
-                    <div class="site-name">J Stephens Plumbing LLC</div>
-                    <div class="site-meta">⭐ 4.9 • Charleston</div>
-                </div>
-                <a href="j-stephens-plumbing-llc/" class="site-link">View Site →</a>
-            </li>
-            <li class="site-item">
-                <div>
-                    <div class="site-name">Palmetto Plumbing</div>
-                    <div class="site-meta">⭐ 5.0 • Charleston</div>
-                </div>
-                <a href="palmetto-plumbing-drain-cleaning-water-heater-repa/" class="site-link">View Site →</a>
-            </li>
-            <li class="site-item">
-                <div>
-                    <div class="site-name">Purpose Plumbing</div>
-                    <div class="site-meta">⭐ 4.4 • Charleston</div>
-                </div>
-                <a href="purpose-plumbing/" class="site-link">View Site →</a>
-            </li>
-            <li class="site-item">
-                <div>
-                    <div class="site-name">Fix-it 24/7 Air Conditioning, Plumbing & Heating</div>
-                    <div class="site-meta">⭐ 4.9 • Charleston</div>
-                </div>
-                <a href="fix-it-24-7-air-conditioning-plumbing-heating/" class="site-link">View Site →</a>
-            </li>
-            <li class="site-item">
-                <div>
-                    <div class="site-name">Blue Collars | Charleston Plumbing and HVAC</div>
-                    <div class="site-meta">⭐ 5.0 • Charleston</div>
-                </div>
-                <a href="blue-collars-charleston-plumbing-and-hvac/" class="site-link">View Site →</a>
-            </li>
-            <li class="site-item">
-                <div>
-                    <div class="site-name">Avery's Plumbing</div>
-                    <div class="site-meta">⭐ 4.9 • Charleston</div>
-                </div>
-                <a href="avery-s-plumbing-tankless-water-filtration/" class="site-link">View Site →</a>
-            </li>
-            <li class="site-item">
-                <div>
-                    <div class="site-name">Charles Towne Plumbing</div>
-                    <div class="site-meta">⭐ 4.9 • Charleston</div>
-                </div>
-                <a href="charles-towne-plumbing/" class="site-link">View Site →</a>
-            </li>
-            <li class="site-item">
-                <div>
-                    <div class="site-name">Atta-Boy Plumbing LLC</div>
-                    <div class="site-meta">⭐ 4.9 • Charleston</div>
-                </div>
-                <a href="atta-boy-plumbing-llc/" class="site-link">View Site →</a>
-            </li>
-            <li class="site-item">
-                <div>
-                    <div class="site-name">Blitch Plumbing</div>
-                    <div class="site-meta">⭐ 4.3 • Charleston</div>
-                </div>
-                <a href="blitch-plumbing/" class="site-link">View Site →</a>
-            </li>
-        </ul>
+        <div class="category">
+            <div class="category-title">Landscapers (4)</div>
+            <div class="site-grid">
+                <a href="tidewater-landscape-llc/" class="site-card">
+                    <div class="site-info">
+                        <h3>Tidewater Landscape, LLC</h3>
+                        <p>⭐ 5.0 • Charleston</p>
+                    </div>
+                    <div class="site-arrow">→</div>
+                </a>
+                <a href="bells-landscaping-charleston/" class="site-card">
+                    <div class="site-info">
+                        <h3>Bells Landscaping Charleston</h3>
+                        <p>⭐ 4.9 • Charleston</p>
+                    </div>
+                    <div class="site-arrow">→</div>
+                </a>
+                <a href="palmetto-landscaping-and-design/" class="site-card">
+                    <div class="site-info">
+                        <h3>Palmetto Landscaping and Design</h3>
+                        <p>⭐ 4.5 • Charleston</p>
+                    </div>
+                    <div class="site-arrow">→</div>
+                </a>
+                <a href="new-leaf-landscape-construction/" class="site-card">
+                    <div class="site-info">
+                        <h3>New Leaf Landscape Construction</h3>
+                        <p>⭐ 4.5 • Charleston</p>
+                    </div>
+                    <div class="site-arrow">→</div>
+                </a>
+            </div>
+        </div>
+        
+        <div class="category">
+            <div class="category-title">Handymen (3)</div>
+            <div class="site-grid">
+                <a href="trusted-handyman-llc/" class="site-card">
+                    <div class="site-info">
+                        <h3>Trusted Handyman LLC</h3>
+                        <p>⭐ 4.4 • Charleston</p>
+                    </div>
+                    <div class="site-arrow">→</div>
+                </a>
+                <a href="charleston-handyman/" class="site-card">
+                    <div class="site-info">
+                        <h3>Charleston Handyman</h3>
+                        <p>⭐ 4.0 • Charleston</p>
+                    </div>
+                    <div class="site-arrow">→</div>
+                </a>
+                <a href="handyman-on-johns-island/" class="site-card">
+                    <div class="site-info">
+                        <h3>Handyman on Johns Island</h3>
+                        <p>⭐ 5.0 • Johns Island</p>
+                    </div>
+                    <div class="site-arrow">→</div>
+                </a>
+            </div>
+        </div>
+        
+        <div class="category">
+            <div class="category-title">Pressure Washing (2)</div>
+            <div class="site-grid">
+                <a href="window-hero-charleston/" class="site-card">
+                    <div class="site-info">
+                        <h3>Window Hero Charleston</h3>
+                        <p>⭐ 4.9 • Charleston</p>
+                    </div>
+                    <div class="site-arrow">→</div>
+                </a>
+                <a href="go-pressure-wash-charleston/" class="site-card">
+                    <div class="site-info">
+                        <h3>Go Pressure Wash Charleston</h3>
+                        <p>⭐ 5.0 • Charleston</p>
+                    </div>
+                    <div class="site-arrow">→</div>
+                </a>
+            </div>
+        </div>
+        
+        <div class="category">
+            <div class="category-title">House Cleaners (2)</div>
+            <div class="site-grid">
+                <a href="maidpro-of-charleston/" class="site-card">
+                    <div class="site-info">
+                        <h3>MaidPro of Charleston</h3>
+                        <p>⭐ 4.8 • Charleston</p>
+                    </div>
+                    <div class="site-arrow">→</div>
+                </a>
+                <a href="merry-maids-of-charleston/" class="site-card">
+                    <div class="site-info">
+                        <h3>Merry Maids of Charleston</h3>
+                        <p>⭐ 4.9 • Charleston</p>
+                    </div>
+                    <div class="site-arrow">→</div>
+                </a>
+            </div>
+        </div>
+        
+        <div class="category">
+            <div class="category-title">Plumbers (1)</div>
+            <div class="site-grid">
+                <a href="limric-plumbing-electrical-heating-air/" class="site-card">
+                    <div class="site-info">
+                        <h3>LimRic Plumbing</h3>
+                        <p>⭐ 4.9 • North Charleston</p>
+                    </div>
+                    <div class="site-arrow">→</div>
+                </a>
+            </div>
+        </div>
     </div>
 </body>
 </html>

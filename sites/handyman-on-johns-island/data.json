@@ -1,0 +1,66 @@
+{
+  "id": "ChIJKbpDO1p__ogRhKKjZSC3EDg",
+  "name": "Handyman on Johns Island",
+  "address": "2960 Cane Slash Rd, Johns Island, SC 29455, USA",
+  "phone": "(843) 494-8049",
+  "website": null,
+  "hasWorkingWebsite": false,
+  "rating": 5,
+  "reviewCount": 5,
+  "reviews": [
+    {
+      "author": "Elizabeth Finein",
+      "rating": 5,
+      "text": "Kenny was very polite and professional.  Not only did he fix the massive clog in our washer but noticed a leak around the washer door and fixed that as well. I highly recommend Kenny and his company.",
+      "time": "5 months ago"
+    },
+    {
+      "author": "Kimmy Spaventa",
+      "rating": 5,
+      "text": "Kenny was extremely professional, courteous, and communicative. He came to fix structural damage to a bedroom ceiling and we also asked if he would install fans and a light fixture while here. He fixed it all and took extra care to paint and clean everything up. He talked us through his process and outlined pricing very clearly. As new home owners we were very grateful to have his knowledge and kindness - he even stopped to help a neighbor kid fix his bike chain and let us know one our pipes were leaking outside. For issues moving forward we will definitely be calling Kenny!",
+      "time": "11 months ago"
+    },
+    {
+      "author": "Joseph M Morris",
+      "rating": 5,
+      "text": "Kenny was awesome. Very polite, knowledgeable, efficient, helpful & outstanding work. It seemed like he knew everything about everything. He installed 4 remote ceiling fans for us in record time & all work great. Very fair pricing & he gave us many helpful hints & ideas about other projects. Can't wait to use him again. Very punctual as well.",
+      "time": "a year ago"
+    },
+    {
+      "author": "Patty Constanty",
+      "rating": 5,
+      "text": "Kenny completed several projects at my home today, including installing a post in my backyard for a birdhouse, installing shelves and hanging a large and heavy wall art.\nKenny was prompt and from the start, he was  polite and made sure he knew exactly how I wanted each project done. He went right to work and did a great job. His rate are reasonable and I could not be happier. Thanks so much",
+      "time": "a year ago"
+    },
+    {
+      "author": "Thomas",
+      "rating": 5,
+      "text": "Kenny was one of the most professional people I have worked with. He was always on time. He always cleaned up after himself and the work that he does is phenomenal! I already have him doing work at my parents house. No need looking around, you found the best right here!",
+      "time": "a year ago"
+    }
+  ],
+  "hours": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "photos": [
+    {
+      "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=ATCDNfVoHzUSsTN36yPVLTCXy00IpL4IHBrbX_uh6w_vD0xlDW4DgA_NXZSaYCrPF1t-HBRxeMaOEsqlvFUnE504w4oYprJbVCv-0Z7rXe80EvR8ksa-kb04XetVJU33ru8Wjs7gZBs9Z39ccWn4LWV911gClnxvr4iixNkmVxii6JVFay6L9zllnj0VFpTbMn5Zz9haqzDKw_mESiFMHkru-HKxwVzFzJfLga0Ae1ZQhVTRKFG1wJbdpSVE7E2gZfDq4Giezj23WpTzBG28BqaKZ7juVuew6k9ydOYpEqijBaEQOGTBkm5CzzeNYx6Vr8Hf2C-oFW2qf_ZpL2JQTK_4ljMWCY0sC6jgL6Qd4U3mivSVq31j3EnZbBwbYeQRim-dOaoS5VyxYLcZZfZzhck3F55SRgMANhnSXGuHDE2P_HtEgbRj&key=AIzaSyAk5AWFI_ubGdKij7aGx1lA7Otiyh27p24",
+      "attribution": "<a href=\"https://maps.google.com/maps/contrib/103286274872938555506\">Michael Mason</a>"
+    }
+  ],
+  "googleMapsUrl": "https://maps.google.com/?cid=4039930215523394180",
+  "types": [
+    "establishment",
+    "general_contractor",
+    "point_of_interest"
+  ],
+  "category": "handyman",
+  "location": "Charleston, SC",
+  "scrapedAt": "2026-02-14T01:00:34.422Z"
+}

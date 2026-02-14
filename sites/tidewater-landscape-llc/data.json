@@ -1,0 +1,82 @@
+{
+  "id": "ChIJYauHgYdt_ogRL3FEiCeEO6A",
+  "name": "Tidewater Landscape, LLC",
+  "address": "1514 Mathis Ferry Rd Ste 105, Mt Pleasant, SC 29464, USA",
+  "phone": "(843) 377-5869",
+  "website": "http://www.tidewaterlandscapellc.com/",
+  "hasWorkingWebsite": false,
+  "rating": 5,
+  "reviewCount": 5,
+  "reviews": [
+    {
+      "author": "Ellen Colehower",
+      "rating": 5,
+      "text": "John and his team are AMAZING!!\nDesign and planning was spot on. Customer service and communication made the process simple. Installation crew was friendly and professional. I highly recommend Tidewater Landscaping!!!",
+      "time": "7 months ago"
+    },
+    {
+      "author": "Mary Beall",
+      "rating": 5,
+      "text": "A good friend recommended John and his team at Tidewater Landscaping. Best recommendation ever.\n\nJohn was very responsive, came right over to look at the job, gave us a detailed quote, talked us through his work plan, then went above and beyond to get us on his schedule. We asked for the moon and he and his team delivered.\n\nHappy to recommend!",
+      "time": "10 months ago"
+    },
+    {
+      "author": "Jacob Conaway",
+      "rating": 5,
+      "text": "John and his crew did a wonderful job.  They planted 20 Ligustrums along both sides of my fence, mulched, planted some additional plants out front of the home and did an absolutely wonderful job.  Best part to me was the communication.  Prompt, polite, on time and everything in between.  This is how you run a successful business.  Look no further than Tidewater Landscaping.",
+      "time": "2 months ago"
+    },
+    {
+      "author": "Kimberly Baker",
+      "rating": 5,
+      "text": "We contracted John after seeing other jobs he had completed in our neighborhood. We were very impressed with his work. His patience with me as I decided which stone I wanted to use (changed my mind a couple times) was greatly appreciated. We are very happy with our new paver patio and walkway and looking forward to many years of enjoyment. John stands behind his work and is right here in Mount Pleasant. I know if I have any issues he will be here to help.",
+      "time": "2 months ago"
+    },
+    {
+      "author": "Christopher Pryor",
+      "rating": 5,
+      "text": "I highly recommend Tidewater Landscapes. While we had a large project that included: installation of several retaining walls, paver installation, drainage work, and landscaping, John and his crew were up to the task. John's communication was excellent every step of the way. His friendly demeanor, flexibility, and professionalism really shown through. I will definitely plan to use John and his company for any future landscaping needs!",
+      "time": "a year ago"
+    }
+  ],
+  "hours": [
+    "Monday: 7:00 AM – 8:00 PM",
+    "Tuesday: 7:00 AM – 8:00 PM",
+    "Wednesday: 7:00 AM – 8:00 PM",
+    "Thursday: 7:00 AM – 8:00 PM",
+    "Friday: 7:00 AM – 8:00 PM",
+    "Saturday: 7:00 AM – 8:00 PM",
+    "Sunday: Closed"
+  ],
+  "photos": [
+    {
+      "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=ATCDNfXMp8f-KrJ6VruRRSwPkgIy-jUMLoy3Hhf9Y3R9wgVVfwpOtfBD9jqkIOhPB4eAwd-wBsryxKxJ8J-uf_8ctUxgsJS_5tzRzUSTo7TKAS9xhpkWhjjPhXloI8qknFwzzFqAir7BmN15ocYSVnd_nf9ijiY4CSGUbI-jnXFDhFVJuCJdtwE4E6pFJ20TGdiXYS0MI5TSHFx7L57QH9oN72vM7Uh6V_MZBeCnV0MnHjcl353S9PIMB00J_X2zPn227KiynPjULWfLLtSJ-Cd5RtT7qweD3t7JtTJpTjZhIAc&key=AIzaSyAk5AWFI_ubGdKij7aGx1lA7Otiyh27p24",
+      "attribution": "<a href=\"https://maps.google.com/maps/contrib/100003577757288507837\">Tidewater Landscape</a>"
+    },
+    {
+      "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=ATCDNfUZPpVwiMx3gkhemfVNpEjO5WlvymDt2-bZfhJwko62tZCt7qjAYMYm8gcCWk2PV-WEwPO8NlrkpbWNAL1z75sOmW59xAL3D6z5en0rCWIpCOJ6RiebPdggwU5uLjtdGiOC9-FrZXkd2AQ2pWQmGWy1G1UiRRTvUFwxmIMMWALvqkGjCqomW-dFVB3Zph_9tBsjEl2eM_b6yLM6odJty9-ueknYIKaT3LIiI3JtGhVs-jyT4MSs1Y-x9bxVSKtHBNnYkSQ66bxsF4i6tp5JQCOBjAh3DbD6faDHRC90CWKRblBJUCszAWXqukZyTpP5kHirAqt9Qw1vtJaQz6emKHe5ToSVZDKSHrzl2XGTdsNKBqF8DJgSpTmBC4Tent-9u0_RjOoiYmGNyjlQo8ijuvK5cJspXBk2PtIeDGt-zxMJF68fJbf43hPKQZvwmS_Q&key=AIzaSyAk5AWFI_ubGdKij7aGx1lA7Otiyh27p24",
+      "attribution": "<a href=\"https://maps.google.com/maps/contrib/101629239798762788777\">Ellen Colehower</a>"
+    },
+    {
+      "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=ATCDNfUmOfoovk-5eq8JnJTjNEHr_xWPnh1zYwwvDmw_9_-jXgGwIg0JyhaLbo-kqpL9ZuCeWvk7hJWZMH4g1cmqV-xAVa17r5Jx3ic93nYlA8uMz6ux6YVB4Y89o6alsRsO-I7SCtr4ig_cxwGeXwZWjMU0zEqkUTTI1gtyd_Hd3QSsJnatL14o5GnD2vIoZrnqviERHtTorFSKDzHh9ZKw52v-_HtLBSFkXDBEmJSBGa2-DZgANC837VsBrCXFFfIWuiW6V9ULhafijSMZ4uFDdMiUwD-igdCYd_heEI1ErX2jrkQ7Hdy-tdqOUBFe1gYaIb63IU6faXaK5VcKn6bx9VRR_B9iz_cWhUB88wqocQLdX17EEGNmMajmS-HXunMu7Z2zzMWUVwL8vxlPBhWfKgSfNk8jTVRJRnAvlDd9AxfZNrU&key=AIzaSyAk5AWFI_ubGdKij7aGx1lA7Otiyh27p24",
+      "attribution": "<a href=\"https://maps.google.com/maps/contrib/116423733681712496439\">Kenneth Sullivan</a>"
+    },
+    {
+      "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=ATCDNfXAtTy4ovN1w8EnIYOQs1FcFzKlBYVtTwoREJ8LhKsa_IYeF-6B5irdW8ZcKJFN8PfRj9-CLolUERpcXKl5oAm3YQYfpxkQDJVp6LviQymbkbW3zyU5P0yGxDXYiw4NtDl2JWKqG5KPF9bdO_rJPUsgDx6nGFTt2p6nr9xPufZiSnzQXMvrV2d3qj0SfXPrJuybPnuHKybhQzWZ9NlCr8LIhnXUaaowgQNk7Q6WKyknEh57C6Ls1sCA5AmYVLbqRL82hiUJblCKzsTqfckj4TcJF-kcw3ABqC2veRsZDr4T7PGlvQsZ8gohrkAj8Jq-7fUD35FQ5zkiIlxt_zzT12HWCGtl2kXEqZ0k02fjGr4CQqXbkDKYjEWFIRMw7COr-bx0gicUQ2__65G4dCXwIxSHG-cZOsKvAnoxEah6wlNOvA&key=AIzaSyAk5AWFI_ubGdKij7aGx1lA7Otiyh27p24",
+      "attribution": "<a href=\"https://maps.google.com/maps/contrib/105358300774235445615\">Beth Quantz</a>"
+    },
+    {
+      "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=ATCDNfUbkdYAT30F3__TdMxHcwcxfDhrThsfCF9WSWLIljVyIdrQwzdsppMMnSSsGsP7VPgro3hd4JADk2AGUfVfEU7l63DLPhv9pHXIEurcxcF-7H1raZ_jWs5SYfUKpQALlpvj1aJ6RHxVnNpyC_T-PJNok96tJq_nf6eUV_BKHLli6x6LCcGtIVEh9Ck2bACJ5PoTmP10V8HG_SnSYHqwJPpFzl5_V6ccWImh8srWcY1G4b9tTfC6Uymf-cQA67EHjMiqjxGGgGEnM1mcItL24kE6RoyxwEx5Q1xGFAAELpJmp2M4T4x_2WF7oq1y4FWANdh2jTAMdAoByFHX4X1OxL-ZSzPymeGzeXNaAdrchr12ZSLUxodVGmVp440zszEFbd3JWTxzsenX2qmDNX2A0RYR5nuJXzywgZdMq893YZ1ENg&key=AIzaSyAk5AWFI_ubGdKij7aGx1lA7Otiyh27p24",
+      "attribution": "<a href=\"https://maps.google.com/maps/contrib/117369602708088358149\">Brian Walsh</a>"
+    }
+  ],
+  "googleMapsUrl": "https://maps.google.com/?cid=11545967375019176239",
+  "types": [
+    "establishment",
+    "general_contractor",
+    "point_of_interest"
+  ],
+  "category": "landscaper",
+  "location": "Charleston, SC",
+  "scrapedAt": "2026-02-14T00:59:29.045Z"
+}

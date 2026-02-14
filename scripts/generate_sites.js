@@ -28,8 +28,10 @@ function generateReviewsHtml(reviews) {
   
   return reviews.slice(0, 3).map(r => `
     <div class="review-card">
-      <div class="review-stars">${generateStars(r.rating)}</div>
-      <p class="review-text">"${r.text.slice(0, 200)}${r.text.length > 200 ? '...' : ''}"</p>
+      <div class="review-header">
+        <span class="review-stars">${generateStars(r.rating)}</span>
+      </div>
+      <p class="review-text">"${r.text.slice(0, 250)}${r.text.length > 250 ? '...' : ''}"</p>
       <p class="review-author">— ${r.author}</p>
     </div>
   `).join('\n');
@@ -61,24 +63,77 @@ function extractCity(address) {
   return match ? match[1].trim() : 'your area';
 }
 
-// Generate taglines
-const taglines = [
-  "Fast, reliable service you can trust. Available 24/7 for emergencies.",
-  "Professional plumbing solutions for your home and business.",
-  "Quality workmanship and honest pricing. Serving the community for years.",
-  "Your local plumbing experts. Licensed, insured, and ready to help.",
-  "From small repairs to major installations — we do it all right."
-];
+// Generate taglines by category
+const taglines = {
+  plumber: [
+    "Fast, reliable service you can trust. Available 24/7 for emergencies.",
+    "Professional plumbing solutions for your home and business.",
+    "Quality workmanship and honest pricing. Serving the community for years."
+  ],
+  landscaper: [
+    "Professional landscaping that transforms your outdoor space into something extraordinary.",
+    "From design to installation, we create stunning landscapes that last.",
+    "Your vision, our expertise. Beautiful outdoor spaces start here.",
+    "Quality craftsmanship and attention to detail in every project."
+  ],
+  handyman: [
+    "No job too small. Fast, reliable repairs you can count on.",
+    "Your one-call solution for home repairs and improvements.",
+    "Honest work, fair prices. Getting things done right the first time.",
+    "From honey-do lists to major fixes — we handle it all."
+  ],
+  'house cleaner': [
+    "Professional cleaning that makes your home sparkle.",
+    "Reliable, thorough cleaning services you can trust.",
+    "A clean home is a happy home. Let us help."
+  ],
+  'pressure washing': [
+    "Restore your property's curb appeal with professional pressure washing.",
+    "Powerful cleaning that makes surfaces look new again.",
+    "Expert pressure washing for homes and businesses."
+  ],
+  default: [
+    "Professional service you can trust. Serving the local community.",
+    "Quality work at fair prices. Call us today for a free estimate.",
+    "Your local experts. Reliable, professional, and ready to help."
+  ]
+};
+
+// Get tagline for category
+function getTagline(category) {
+  const cat = category.toLowerCase();
+  const list = taglines[cat] || taglines.default;
+  return list[Math.floor(Math.random() * list.length)];
+}
+
+// Get template name for category
+function getTemplateName(category) {
+  const cat = category.toLowerCase();
+  if (cat.includes('landscap') || cat.includes('lawn')) return 'landscaper';
+  if (cat.includes('handyman') || cat.includes('repair')) return 'handyman';
+  if (cat.includes('plumb')) return 'plumber';
+  if (cat.includes('clean') || cat.includes('maid')) return 'handyman'; // Use handyman style for cleaners
+  if (cat.includes('pressure') || cat.includes('wash')) return 'landscaper'; // Use landscaper style for pressure washing
+  return 'plumber'; // Default
+}
 
 // Generate site from template
-function generateSite(business, templateName = 'plumber') {
+function generateSite(business, templateNameOverride = null) {
+  const templateName = templateNameOverride || getTemplateName(business.category || 'default');
   const templatePath = path.join(TEMPLATES_DIR, `${templateName}.html`);
-  let template = fs.readFileSync(templatePath, 'utf-8');
+  
+  // Check if template exists, fallback to plumber
+  let template;
+  if (fs.existsSync(templatePath)) {
+    template = fs.readFileSync(templatePath, 'utf-8');
+  } else {
+    template = fs.readFileSync(path.join(TEMPLATES_DIR, 'plumber.html'), 'utf-8');
+  }
   
   const slug = generateSlug(business.name);
   const city = extractCity(business.address);
-  const tagline = taglines[Math.floor(Math.random() * taglines.length)];
-  const activateUrl = `https://localsite.ai/activate/${slug}`;
+  const tagline = getTagline(business.category || 'default');
+  const activateUrl = `https://cornershopdigital.com/activate/${slug}`;
   
   // Build replacements
   const replacements = {

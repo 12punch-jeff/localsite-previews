@@ -1,0 +1,60 @@
+{
+  "id": "ChIJFUed06Z9IIURLW4UGJ3m36E",
+  "name": "Go Pressure Wash Charleston",
+  "address": "1800 William Kennerty Dr, Charleston, SC 29407, USA",
+  "phone": "(843) 823-2205",
+  "website": null,
+  "hasWorkingWebsite": false,
+  "rating": 5,
+  "reviewCount": 5,
+  "reviews": [
+    {
+      "author": "K Tucci",
+      "rating": 5,
+      "text": "Clean Command did a great job on our windows. Our tech, Sean, was on time, professional, and thorough. The job was completed with 100% satisfaction",
+      "time": "3 months ago"
+    },
+    {
+      "author": "Bradley Riddle",
+      "rating": 5,
+      "text": "⭐⭐⭐⭐⭐\n\nI recently had my house power washed by Clean Command, and I couldn't be more pleased with the results! From start to finish, the experience was fantastic. The team was professional, punctual, and incredibly thorough. They went above and beyond to ensure every inch of my home looked spotless. The attention to detail was impressive, and the quality of their work exceeded my expectations. I highly recommend Clean Command for anyone in need of power washing services. My house looks brand new again, and I am a very satisfied customer!",
+      "time": "a year ago"
+    },
+    {
+      "author": "Barrie Glenn",
+      "rating": 5,
+      "text": "Sean and team are awesome! Very thorough, on time and very easy to work with. I called and he was here to clean my windows the next day! HIGHLY RECOMMEND!",
+      "time": "a year ago"
+    },
+    {
+      "author": "Jan Malcher",
+      "rating": 5,
+      "text": "Fantastic job!!!!!!!!!!! Sean went above and beyond to make my 1997 SL320 look like a brand new car. I had multiple other detail companies work on my other vehicles but I'm never looking anywhere else. Sean's attention and consideration of older vehicle sets him apart from everyone! MILES APART! Great job!",
+      "time": "a year ago"
+    },
+    {
+      "author": "Nikki Weiss",
+      "rating": 5,
+      "text": "Sean cleaned and detailed my Porsche Macan. His work is outstanding, my car looks brand new!! He’s also very easy and timely to book with. I would highly recommend!!",
+      "time": "2 years ago"
+    }
+  ],
+  "hours": [
+    "Monday: 6:00 AM – 10:00 PM",
+    "Tuesday: 6:00 AM – 10:00 PM",
+    "Wednesday: 6:00 AM – 10:00 PM",
+    "Thursday: 6:00 AM – 10:00 PM",
+    "Friday: 6:00 AM – 10:00 PM",
+    "Saturday: 6:00 AM – 10:00 PM",
+    "Sunday: 6:00 AM – 10:00 PM"
+  ],
+  "photos": [],
+  "googleMapsUrl": "https://maps.google.com/?cid=11664295122301120045",
+  "types": [
+    "establishment",
+    "point_of_interest"
+  ],
+  "category": "pressure washing",
+  "location": "Charleston, SC",
+  "scrapedAt": "2026-02-14T01:00:02.854Z"
+}

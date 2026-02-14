@@ -1,0 +1,80 @@
+{
+  "id": "ChIJ2XvaSQ95_ogRhMiY10FitG0",
+  "name": "Charleston Handyman",
+  "address": "1608 Camp Rd Ste 89, Charleston, SC 29412, USA",
+  "phone": "(843) 790-5099",
+  "website": null,
+  "hasWorkingWebsite": false,
+  "rating": 4,
+  "reviewCount": 4,
+  "reviews": [
+    {
+      "author": "Wesley Rudolph",
+      "rating": 5,
+      "text": "After searching for a painter for several weeks, I chose Charleston Handyman Services to paint several rooms in our home. They were on-time and on-budget, with no surprises. Excellent work and very professional. Five Stars and highly recommend them. Great Prices Too!",
+      "time": "6 years ago"
+    },
+    {
+      "author": "Abel Cullen",
+      "rating": 5,
+      "text": "Just wanted to reach out to say thank you. You guys did an amazing job on our living room and dining room flooring. We love the new laminate floors and thrilled to get rid of the carpeting. Keep up the good work, thanks again. PS Our neighbor is going to call you...told ya.",
+      "time": "6 years ago"
+    },
+    {
+      "author": "Christy Daugherty",
+      "rating": 2,
+      "text": "No showed and wouldn't reply after I left voicemails.",
+      "time": "4 years ago"
+    },
+    {
+      "author": "Rick Perry",
+      "rating": 4,
+      "text": "",
+      "time": "7 years ago"
+    }
+  ],
+  "hours": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "photos": [
+    {
+      "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=ATCDNfWqEpwG3EE4rydKz6txZx8AiWdxwTMMeYMFlooiczqzf_qMeF6UtbtMfvAoDA9sFSvTK_-OblZEGd3LzgE662VkUzaW-Qn0C00jZP9FVPCW-RAluNEK-nAWy9bsyZYVXH-9iCB70r1F2cy8JRoZrzZjYOVvvnSK8gARbDNAd_HCU-qWCotzoyHhV1GnXQnWeBIMk_vfhKweXTpFvdQZhfIDk9eECLWeEEBUhCbVz7W-wLtvBwUSNDlJ3peeKae6OuX50x-f8jvTx7bDuQaTNuyqa0WDujs3tU6Ck3WgLYApwg&key=AIzaSyAk5AWFI_ubGdKij7aGx1lA7Otiyh27p24",
+      "attribution": "<a href=\"https://maps.google.com/maps/contrib/105200824528787851643\">Charleston Handyman</a>"
+    },
+    {
+      "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=ATCDNfUcLfNePlO72C58xlX209pHG1Sd3TqqXsL7TOdpMoqou3nrbSZoHa78K9NlTBf0_I1L1U28hUc_EGOGh_CUpm_aBg1XKB7s2lvr_zx4gfHExNLzzVQJmxubQyrfjSL3I53q1fVUbgxPCHkRK_lfNM4Y-m6HYASdawsuez18QatE6k6vBTwr92eCkmmLwJJTVcbGDBaDdAUgQcMm8ybqSsy6uTwXnjyyYvWH7bUoiyH5FBzF4AGqbOcXxVJlSVbazQoTTV_lT2bPd6bSZeY8eDUoArbKa_s2Oy71m-YB_P8-YQ&key=AIzaSyAk5AWFI_ubGdKij7aGx1lA7Otiyh27p24",
+      "attribution": "<a href=\"https://maps.google.com/maps/contrib/105200824528787851643\">Charleston Handyman</a>"
+    },
+    {
+      "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=ATCDNfUFKLDv2cye8zB7d261KYwworpih0uEb7bPlyzjYczn2OqXNTPJy4YcxBKKwnJw56xx67IgjS76LBHRmv3kPIKRY2FyDP59NyuAVUYP2nkavec0UUkyI1bN418WWUfaWABNrrRJDVChufE91pOT-29jzhcDS4MXZlBVAPVzT7TonfxAczmU_3KfyBTxPN3XpRVas50CPm17sVadukEHPD4RVqaaXO5VuA6K8qyKBFF94c3eQUxVUJ5u13mYud7dFox0cm2NCmSTNYVDG6HNuKWN7Z6laHzaIXAoLzDzklnnOQ&key=AIzaSyAk5AWFI_ubGdKij7aGx1lA7Otiyh27p24",
+      "attribution": "<a href=\"https://maps.google.com/maps/contrib/105200824528787851643\">Charleston Handyman</a>"
+    },
+    {
+      "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=ATCDNfWOnkH3G_5PNCNKLhIWdW6yZLi3gMKbH0atx48ZXcDf4_SxwHZTnho5XOY3OOJDbR-dhbFfQG6B7tGwYwgHdHEcK5Lip_pIHhfFtp9DUoxOyedpejMNFG73wqtbnjV5p7W22thP2X-frx3sIt7Qv8SAtELLpZbqIICsK4O4u4av2J-ZTpNCaDwBpAoYk8risF-3EeewWJEG5PDLXHl2QNnnWzg6vqkb6603cBZB6vV5jA1Rr-otnIaqG0tw2KRuqoi_vibHqDH7hyG8q3TbtXVTChihVbZBnK7sV7sBNTiaRg&key=AIzaSyAk5AWFI_ubGdKij7aGx1lA7Otiyh27p24",
+      "attribution": "<a href=\"https://maps.google.com/maps/contrib/105200824528787851643\">Charleston Handyman</a>"
+    },
+    {
+      "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=ATCDNfXCSZRyYu8m9gwNU8L1gGZyP7krCT7vpACBzTw-NzHqMzbM4WRRor1Z3_a-BESQDVxXzI3bP1QzwEQ8HIrclhSC-000xmYQaVdNV84tN71yxK2QJZWvvZprHwZ2snBk4IkO5olgnXN8Utow_1EGFZSdILY3gAJqtrzwVJfRVfZFExfeflpgLLhxaHXNAYtT9p7q7xkXvC_XtzHnxyGwBch_LhNaPln7V9-siuEo5Ag-epSGpP4-6cFS0wwFkrWNGkHOskDEKrwMz_NcJ0LwzldWmvYdGEdVx8v369BZtCHhnA&key=AIzaSyAk5AWFI_ubGdKij7aGx1lA7Otiyh27p24",
+      "attribution": "<a href=\"https://maps.google.com/maps/contrib/105200824528787851643\">Charleston Handyman</a>"
+    }
+  ],
+  "googleMapsUrl": "https://maps.google.com/?cid=7905051280871573636",
+  "types": [
+    "establishment",
+    "general_contractor",
+    "home_goods_store",
+    "painter",
+    "point_of_interest",
+    "roofing_contractor",
+    "store"
+  ],
+  "category": "handyman",
+  "location": "Charleston, SC",
+  "scrapedAt": "2026-02-14T01:00:34.023Z"
+}

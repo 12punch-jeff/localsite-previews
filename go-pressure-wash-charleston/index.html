@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go Pressure Wash Charleston | Professional Landscaping Services</title>
+    <meta name="description" content="Go Pressure Wash Charleston - Professional landscaping services in Charleston. Transform your outdoor space.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0f0a;
+            --bg-card: #111611;
+            --text: #ffffff;
+            --text-dim: #8a9a8a;
+            --accent: #4ade80;
+            --accent-dark: #22c55e;
+            --accent-glow: rgba(74, 222, 128, 0.15);
+            --border: #1a251a;
+            --gradient: linear-gradient(135deg, #0a0f0a 0%, #152015 100%);
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+        
+        /* Preview Banner */
+        .preview-banner {
+            background: var(--accent);
+            color: var(--bg);
+            text-align: center;
+            padding: 14px 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        .preview-banner a { color: var(--bg); font-weight: 700; }
+        
+        /* Header */
+        header {
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 15, 10, 0.9);
+            backdrop-filter: blur(20px);
+            z-index: 100;
+            border-bottom: 1px solid var(--border);
+        }
+        .header-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--text);
+        }
+        .header-cta {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .phone {
+            color: var(--text-dim);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        .phone:hover { color: var(--accent); }
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 24px;
+            border-radius: 100px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s;
+            font-size: 0.9rem;
+        }
+        .btn-primary {
+            background: var(--accent);
+            color: var(--bg);
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 0 30px var(--accent-glow);
+        }
+        
+        /* Hero */
+        .hero {
+            padding: 120px 0 100px;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -20%;
+            width: 800px;
+            height: 800px;
+            background: radial-gradient(circle, var(--accent-glow) 0%, transparent 60%);
+            filter: blur(100px);
+            pointer-events: none;
+        }
+        .hero-content { position: relative; z-index: 1; }
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            background: var(--accent-glow);
+            border: 1px solid rgba(74, 222, 128, 0.2);
+            border-radius: 100px;
+            font-size: 0.85rem;
+            color: var(--accent);
+            margin-bottom: 24px;
+        }
+        .hero h1 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: clamp(2.5rem, 6vw, 4.5rem);
+            font-weight: 700;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+            margin-bottom: 24px;
+        }
+        .hero h1 .accent { color: var(--accent); }
+        .hero p {
+            font-size: 1.2rem;
+            color: var(--text-dim);
+            max-width: 500px;
+            margin-bottom: 40px;
+        }
+        .hero-cta { display: flex; gap: 15px; flex-wrap: wrap; }
+        .btn-outline {
+            background: transparent;
+            color: var(--text);
+            border: 1px solid var(--border);
+        }
+        .btn-outline:hover {
+            border-color: var(--accent);
+            background: var(--accent-glow);
+        }
+        
+        /* Stats */
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1px;
+            background: var(--border);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            overflow: hidden;
+            margin: 60px 0;
+        }
+        .stat {
+            background: var(--bg-card);
+            padding: 35px;
+            text-align: center;
+        }
+        .stat-value {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--accent);
+        }
+        .stat-label { color: var(--text-dim); font-size: 0.9rem; margin-top: 5px; }
+        
+        /* Services */
+        section { padding: 100px 0; }
+        .section-label {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 16px;
+        }
+        .section-label::before {
+            content: '';
+            width: 30px;
+            height: 1px;
+            background: var(--accent);
+        }
+        .section-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-weight: 700;
+            margin-bottom: 50px;
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .service-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 35px;
+            transition: all 0.3s;
+        }
+        .service-card:hover {
+            border-color: var(--accent);
+            transform: translateY(-5px);
+        }
+        .service-icon {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .service-card h3 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.25rem;
+            margin-bottom: 10px;
+        }
+        .service-card p { color: var(--text-dim); font-size: 0.95rem; }
+        
+        /* Reviews */
+        .reviews-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 20px;
+        }
+        .review-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 30px;
+        }
+        .review-stars { color: var(--accent); font-size: 1.2rem; margin-bottom: 15px; }
+        .review-text {
+            font-size: 1rem;
+            line-height: 1.7;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+        .review-author { color: var(--text-dim); font-weight: 500; }
+        
+        /* Contact */
+        .contact {
+            background: var(--gradient);
+            border: 1px solid var(--border);
+            border-radius: 24px;
+            padding: 60px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            margin: 60px 0;
+        }
+        .contact h2 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .contact-info { display: flex; flex-direction: column; gap: 20px; }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            color: var(--text-dim);
+        }
+        .contact-item span:first-child { font-size: 1.5rem; }
+        .contact-item a { color: var(--text); text-decoration: none; }
+        .contact-item a:hover { color: var(--accent); }
+        .hours-list { list-style: none; }
+        .hours-list li {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid var(--border);
+            font-size: 0.95rem;
+        }
+        .hours-list li span:first-child { color: var(--text-dim); }
+        
+        /* CTA */
+        .cta {
+            text-align: center;
+            padding: 100px 0;
+        }
+        .cta h2 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            margin-bottom: 20px;
+        }
+        .cta p { color: var(--text-dim); font-size: 1.1rem; margin-bottom: 30px; }
+        
+        /* Footer */
+        footer {
+            padding: 40px 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            color: var(--text-dim);
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .contact { grid-template-columns: 1fr; padding: 40px 30px; }
+            .stats { grid-template-columns: 1fr; }
+            .header-cta .phone { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="preview-banner">
+        ✨ This site was built for <strong>Go Pressure Wash Charleston</strong> — <a href="https://cornershopdigital.com/activate/go-pressure-wash-charleston">Activate it for $199 →</a>
+    </div>
+    
+    <header>
+        <div class="container header-inner">
+            <div class="logo">Go Pressure Wash Charleston</div>
+            <div class="header-cta">
+                <a href="tel:(843) 823-2205" class="phone">(843) 823-2205</a>
+                <a href="tel:(843) 823-2205" class="btn btn-primary">Get Free Quote</a>
+            </div>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-badge">✦ Trusted in Charleston</div>
+            <h1>Transform Your<br><span class="accent">Outdoor Space</span></h1>
+            <p>Expert pressure washing for homes and businesses.</p>
+            <div class="hero-cta">
+                <a href="tel:(843) 823-2205" class="btn btn-primary">Get Free Estimate →</a>
+                <a href="#services" class="btn btn-outline">View Services</a>
+            </div>
+        </div>
+    </section>
+    
+    <div class="container">
+        <div class="stats">
+            
+            <div class="stat">
+                <div class="stat-value">5★</div>
+                <div class="stat-label">Google Rating</div>
+            </div>
+            
+            <div class="stat">
+                <div class="stat-value">10+</div>
+                <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">100%</div>
+                <div class="stat-label">Satisfaction</div>
+            </div>
+        </div>
+    </div>
+    
+    <section id="services">
+        <div class="container">
+            <span class="section-label">What We Do</span>
+            <h2 class="section-title">Professional Landscaping Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🌿</div>
+                    <h3>Landscape Design</h3>
+                    <p>Custom designs that transform your property into a stunning outdoor oasis.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🌳</div>
+                    <h3>Tree & Shrub Care</h3>
+                    <p>Expert pruning, planting, and maintenance for healthy, beautiful plants.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🌱</div>
+                    <h3>Lawn Maintenance</h3>
+                    <p>Regular mowing, fertilization, and care to keep your lawn pristine.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💧</div>
+                    <h3>Irrigation Systems</h3>
+                    <p>Efficient watering solutions designed to save water and keep plants thriving.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🪨</div>
+                    <h3>Hardscaping</h3>
+                    <p>Patios, walkways, retaining walls, and outdoor living spaces.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">✨</div>
+                    <h3>Seasonal Cleanup</h3>
+                    <p>Spring and fall cleanup services to keep your property looking its best.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section>
+        <div class="container">
+            <span class="section-label">Reviews</span>
+            <h2 class="section-title">What Our Clients Say</h2>
+            <div class="reviews-grid">
+                
+    <div class="review-card">
+      <div class="review-header">
+        <span class="review-stars">★★★★★</span>
+      </div>
+      <p class="review-text">"Clean Command did a great job on our windows. Our tech, Sean, was on time, professional, and thorough. The job was completed with 100% satisfaction"</p>
+      <p class="review-author">— K Tucci</p>
+    </div>
+  
+
+    <div class="review-card">
+      <div class="review-header">
+        <span class="review-stars">★★★★★</span>
+      </div>
+      <p class="review-text">"⭐⭐⭐⭐⭐
+
+I recently had my house power washed by Clean Command, and I couldn't be more pleased with the results! From start to finish, the experience was fantastic. The team was professional, punctual, and incredibly thorough. They went above and beyon..."</p>
+      <p class="review-author">— Bradley Riddle</p>
+    </div>
+  
+
+    <div class="review-card">
+      <div class="review-header">
+        <span class="review-stars">★★★★★</span>
+      </div>
+      <p class="review-text">"Sean and team are awesome! Very thorough, on time and very easy to work with. I called and he was here to clean my windows the next day! HIGHLY RECOMMEND!"</p>
+      <p class="review-author">— Barrie Glenn</p>
+    </div>
+  
+            </div>
+        </div>
+    </section>
+    
+    
+    <div class="container">
+        <div class="contact">
+            <div>
+                <h2>Get In Touch</h2>
+                <p style="color: var(--text-dim); margin-bottom: 30px;">Ready to transform your outdoor space? Contact us today for a free consultation.</p>
+                <div class="contact-info">
+                    
+                    <div class="contact-item">
+                        <span>📞</span>
+                        <a href="tel:(843) 823-2205">(843) 823-2205</a>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <span>📍</span>
+                        <span>1800 William Kennerty Dr, Charleston, SC 29407, USA</span>
+                    </div>
+                    <div class="contact-item">
+                        <span>🗺️</span>
+                        <a href="https://maps.google.com/?cid=11664295122301120045" target="_blank">View on Google Maps</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                <h3 style="margin-bottom: 20px;">Business Hours</h3>
+                <ul class="hours-list">
+                    <li><span>Monday</span><span>6:00 AM – 10:00 PM</span></li>
+<li><span>Tuesday</span><span>6:00 AM – 10:00 PM</span></li>
+<li><span>Wednesday</span><span>6:00 AM – 10:00 PM</span></li>
+<li><span>Thursday</span><span>6:00 AM – 10:00 PM</span></li>
+<li><span>Friday</span><span>6:00 AM – 10:00 PM</span></li>
+<li><span>Saturday</span><span>6:00 AM – 10:00 PM</span></li>
+<li><span>Sunday</span><span>6:00 AM – 10:00 PM</span></li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+    
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Get Started?</h2>
+            <p>Let's create the outdoor space you've always dreamed of.</p>
+            <a href="tel:(843) 823-2205" class="btn btn-primary" style="padding: 16px 32px; font-size: 1rem;">
+                Call Now: (843) 823-2205
+            </a>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>© 2026 Go Pressure Wash Charleston. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
